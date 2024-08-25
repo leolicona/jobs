@@ -1,0 +1,22 @@
+.container {
+    border: 1px dotted white;
+    width: 100%;
+}
+
+.content {
+    border: 1px dotted white;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: wrap;
+    gap: 24px;
+    
+    padding: 8px;
+}
+
+.content > * {
+    border: 1px dotted white;
+    width: 100%;
+}

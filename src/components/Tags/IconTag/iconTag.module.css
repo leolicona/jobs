@@ -1,0 +1,13 @@
+.container {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 4px;
+}   
+
+.image {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
